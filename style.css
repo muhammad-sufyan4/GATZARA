@@ -1,0 +1,568 @@
+ .body{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    z-index: 2;
+    
+  }
+  html{
+   /* overflow: hidden; */
+   scroll-behavior: smooth;
+
+ }
+ 
+ .para{
+    margin-top: -15px;
+    width: 100%;
+    height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+}.track{
+display: flex;
+width: max-content;
+}
+.track span{
+flex-shrink: 0;
+padding-right: 50px;
+padding-top: 7px;
+
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px; 
+  word-spacing: 1px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 16px;
+  font-family: "Aeonik", sans-serif;
+  color: rgb(173, 173, 173);
+}
+@font-face {
+    font-family: "Aeonik";
+    src: url("./font/Aeonik_Fono/") format("woff2");
+}
+
+@font-face {
+  font-family: "Parafina";
+  src: url("./font/parafina-font-family/") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+width: 100%;
+  font-family: "Aeonik", sans-serif;
+height: 100px;
+/* position: fixed; */
+/* top: 0; */
+}
+#navbar {
+  position: fixed;
+  /* top: 0; */
+  width: 100%;
+  transition: 0.3s;
+}
+
+#navbar.hide {
+  top: -100px;
+}
+.logo{
+
+  font-weight: bolder;
+  margin-left: 26px;
+  font-size: 15px;
+}
+.sec_logo{
+  color: black;
+}
+.links{
+margin-right: 45px;
+}
+.btn{
+  margin: 4px;
+  font-family: "Aeonik",sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.btn a{
+  text-decoration: none;
+color: black;
+}
+
+.name h1{
+  margin-right: 20px;
+  font-family:sans-serif;
+  /* font-size: 22px; */
+  font-weight:900;
+  font-size: 30px;
+  line-height: 5px;
+  letter-spacing:-3.8px;
+  color: black;
+}
+.btnn{
+  margin-right: 50px;
+}
+.btnn button{
+  padding: 14px 19px ;
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+}
+
+.hero_section{
+  overflow: hidden;
+   /* border: 2px solid rgb(209, 29, 137); */
+   height: 1600px;
+   width: 100%;
+   /* justify-content: center; */
+   /* flex-wrap: wrap; */
+   /* display: flex; */
+
+   background-color: #FF1515;
+  border-radius:   10px 10px  0px 0px;
+  }
+  
+  .hero{
+  background-color: #FF1515;
+  /* top: -200px; */
+  margin-left: -120px;
+  /* border: 2px solid blue; */
+  /* background-color: blue; */
+  width: 100%;
+  height: auto;
+  /* overflow: hidden; */
+}.svg{
+  /* position: absolute; */
+  /* overflow: hidden; */
+  margin-left: -210px;margin-top: -20px;
+}
+.circle-text {
+  /* position: relative; */
+  /* left: -100px; */
+  /* width: 1450px; */
+  /* border: 3px solid purple; */
+  width: 130%;
+  height: 1600px;
+  
+}
+
+.main_text {
+  fill: rgba(0, 0, 0, 0.957);
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -4.5px;
+  text-transform: capitalize;
+  font-family: Arial, sans-serif;
+}
+.center{
+  /* border: 2px solid blue; */
+position: relative;
+top: -1350px;
+justify-content: center;
+display: flex;
+
+align-items: center;
+flex-direction: column;
+/* align-items: center; */
+  height: 900px;
+  width: 80%;
+  margin-left: 140px;
+}.text{
+  align-items: center;
+  /* border: 2px solid black; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  align-items: center;
+  width: 500px;text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+.text span{
+  text-align: center;
+  font-size:30px ;font-weight:800 ;
+  color: black;  font-family: "Aeonik",sans-serif;
+
+  /* text-transform: lowercase; */
+}
+.text span{
+  /* text-transform: lowercase; */
+  
+  font-size:30px ;font-weight: 800;
+
+    color: black;  font-family: "Aeonik",sans-serif;
+}
+.video video{
+  height: 400px;
+}
+.pa{
+  font-family: "Aeonik",sans-serif;
+  color: rgba(0, 0, 0, 0.889);
+  text-align: center;
+  width: 250px;
+  font-size:18px;
+  /* font-weight: 700; */
+  /* border: 2px solid blue; */
+}
+.logoo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+gap: 10px;
+width: 600px;
+height: 200px;
+}
+.logoo img{
+  height: 60px;
+}
+.parag{
+  /* border: 1px solid blue ; */
+  color: black;margin-left: 530px;
+  font-family: "Aeonik",sans-serif;
+  font-weight:700;
+  font-size: 20px;
+  line-height: 1.3;
+  width: 600px;
+
+
+}
+
+.heros{
+  overflow: hidden;
+   background-color: #FF1515;
+  border-radius:  0px 0px 10px 10px;
+   height: 800px;
+   width: 100%;
+}
+.ff{
+  display: flex;
+gap: 20px
+;
+  align-items: center;
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 500px;
+
+}
+.ff video{
+  margin-left: 20px;
+  height: 340px;
+}
+.ff p{
+  margin-right: 30px;
+width: 320px;
+  color: black;
+  font-weight: 600;
+  font-family: "Aeonik",sans-serif;
+  font-size: 16px;
+
+}.animate{
+  height: auto;
+  width: 100%;
+  margin-top: 10px;
+}
+.animate > div {
+  position: sticky;
+  top: 0;
+}
+
+/* CHANGED: boxes 1-4 share the same layout */
+.box1, .box2, .box3, .box4{
+  height: 95vh;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  overflow: hidden;            /* NEW: big words get cut by the edge like the pics */
+}
+.box1{ z-index: 2; background-color: #FFFFFF; }
+.box2{ z-index: 3; background-color: #c8ff1e; margin-top: 10px; }  /* CHANGED lime */
+.box3{ z-index: 4; background-color: #416bdc; margin-top: 10px; }  /* CHANGED blue */
+.box4{ z-index: 5; background-color: #ffad1f; margin-top: 10px; }  /* CHANGED orange */
+
+.bleft{
+  height: 95vh;
+  width: 500px;
+  z-index: 1;
+}
+.bleft h1{
+  position: relative;
+  font-size: 145px;
+  line-height: 124px;
+  font-weight: 700;
+  top: -50px;
+  left: 20px;
+  letter-spacing: -9px;
+  font-family: "Parafina", sans-serif;
+}
+.desc{
+  font-family: "Aeonik", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  width: 300px;
+  position: relative;
+  margin-left: 40px;
+  line-height: 18px;
+}
+.num{
+  position: relative;
+  margin-left: 50px;
+  bottom: -170px;
+  font-family: "Aeonik", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.bcenter{
+  height: 640px;
+  width: 640px;
+  position: relative;
+  left: -138px;
+  background:
+    radial-gradient(circle at 20% 15%, #6dff33 0%, transparent 45%),
+    radial-gradient(ellipse at 80% 35%, rgba(0, 40, 0, 0.55) 0%, transparent 40%),
+    linear-gradient(135deg, #22d322 0%, #0b9b0b 45%, #035a0a 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* NEW: each circle gets its own color (box1 keeps the green gradient) */
+.box2 .bcenter{ background: #85868b; }
+.box3 .bcenter{ background: #416bdc; }
+.box4 .bcenter{ background: #ffad1f; }
+
+/* CHANGED: stripes + animation only on box1 */
+.box1 .bcenter::before{
+  content: "";
+  position: absolute;
+  inset: -20%;
+  background: repeating-linear-gradient(
+    115deg,
+    rgba(0, 0, 0, 0.18) 0 6px,
+    transparent 6px 24px,
+    rgba(255, 255, 255, 0.07) 24px 28px,
+    transparent 28px 52px
+  );
+  filter: blur(6px);
+  animation: drift 5s linear infinite;
+}
+@keyframes drift {
+  to { transform: translateX(60px); }
+}
+
+.bcenter img{
+  height: 550px;
+}
+/* NEW: photos fill the whole circle (box3, box4) */
+.bcenter img.full{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* NEW: big {} logo in box2 */
+.glyph{
+  font-family: "Parafina", sans-serif;
+  font-size: 520px;
+  line-height: 1;
+  color: #000;
+  position: relative;
+}
+
+.bright{
+  height: 95vh;
+  width: 200px;
+  position: relative;
+  left: -190px;
+  z-index: 1;
+}
+.headdd{
+  position: relative;
+  font-family: "Aeonik", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  left: 200px;
+  top: 0px;
+  margin-top: 30px;
+}
+.textt{
+  top: 200px;
+  line-height: 18px;
+  left: 160px;
+  position: relative;
+  font-family: "Aeonik", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+.headd{
+  top: 280px;
+  position: relative;
+  font-size: 145px;
+  line-height: 124px;
+  font-weight: 700;
+  letter-spacing: -9px;
+  font-family: "Parafina", sans-serif;
+}
+/* NEW: move the right word so it starts where it does in the pics */
+.box2 .headd{ left: -130px; }   /* STUDIO starts more to the left */
+.box3 .headd{ left: 60px; }     /* PAY starts more to the right */
+
+.box5{
+  z-index: 6;
+  border-radius: 10px;
+  height: 110vh;
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgb(253, 19, 175);
+}
+
+
+/* ================= LAPTOP ≤ 1200px ================= */
+@media (max-width: 1200px) {
+  .parag { margin-left: 300px; width: 500px; }
+
+  .bleft { width: 380px; }
+  .bleft h1,
+  .headd {
+    font-size: 110px;
+    line-height: 96px;
+    letter-spacing: -7px;
+  }
+  .headd { top: 220px; }
+
+  .bcenter { width: 480px; height: 480px; left: -80px; }
+  .bcenter img { height: 420px; }
+
+  .bright { width: 180px; left: -120px; }
+  .headdd { left: 150px; }
+  .textt  { left: 120px; }
+}
+
+/* ================= TABLET ≤ 992px ================= */
+@media (max-width: 992px) {
+
+  /* ---- HERO: circle text becomes a background, content flows normally ---- */
+  .hero_section { height: auto; position: relative; }
+
+  .hero {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    width: 160%;
+  }
+  .svg { margin: 0; }
+  .circle-text { width: 100%; height: auto; }
+
+  .center {
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    padding: 130px 0 60px;
+  }
+  .text {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 0;
+  }
+  .text span { font-size: clamp(22px, 4vw, 30px); }
+  .video video { width: 100%; max-width: 420px; height: auto; }
+  .logoo { width: 100%; height: auto; margin-top: 20px; }
+
+  /* ---- ABOUT SECTION ---- */
+  .heros { height: auto; padding: 60px 0 30px; }
+  .parag {
+    margin-left: 0;
+    width: auto;
+    padding: 0 24px;
+    font-size: 18px;
+  }
+  .ff { flex-direction: column; height: auto; gap: 16px; margin-top: 30px; }
+  .ff video { margin: 0; width: 90%; max-width: 420px; height: auto; }
+  .ff p { width: auto; margin: 0 24px; }
+
+  /* ---- PROJECT CARDS: stack vertically ---- */
+  .box1, .box2, .box3, .box4 {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 80px 20px 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .bleft, .bright {
+    height: auto;
+    width: 100%;
+    left: 0;
+  }
+  .bleft h1,
+  .headd {
+    position: static;
+    font-size: clamp(48px, 13vw, 110px);
+    line-height: 1;
+    letter-spacing: -0.05em;
+    margin: 0;
+  }
+  .box2 .headd,
+  .box3 .headd { left: 0; }
+
+  .desc { width: 90%; max-width: 360px; margin: 10px auto; }
+  .num  { margin: 0; bottom: 0; }
+
+  .bcenter {
+    width: min(60vw, 360px);
+    height: min(60vw, 360px);
+    left: 0;
+    flex-shrink: 0;
+  }
+  .bcenter img { height: 85%; }
+  .box2 .bcenter img { height: 50% !important; } /* beats the inline style in your HTML */
+
+  .headdd, .textt { position: static; margin: 0; }
+}
+
+/* ================= PHONE ≤ 768px ================= */
+@media (max-width: 768px) {
+  .para { margin-top: -10px; }
+  .track span { font-size: 12px; }
+
+  .navbar { height: 70px; }
+  .logo,
+  .btnn { display: none; }
+  .links { margin: 0 12px; }
+  .btn { font-size: 12px; }
+  .name h1 { font-size: 24px; letter-spacing: -2px; margin-right: 0; }
+
+  .center { padding-top: 100px; }
+  .num { display: none; }
+}
+
+/* ================= SMALL PHONE ≤ 480px ================= */
+@media (max-width: 480px) {
+  .links { margin: 0 6px; }
+  .btn { font-size: 11px; margin: 2px; }
+  .name h1 { font-size: 20px; }
+
+  .text span { font-size: 22px; }
+  .pa { font-size: 16px; }
+  .logoo img { height: 40px; }
+
+  .parag { font-size: 16px; }
+  .ff p { font-size: 14px; }
+
+  .bcenter { width: min(70vw, 280px); height: min(70vw, 280px); }
+  .desc { font-size: 13px; }
+}
